@@ -1,0 +1,264 @@
+/************ Main Setting **************/
+/*****************************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #222222;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.clearfix:after{
+	content: "";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+/**************** Header *****************/
+/*****************************************/
+header{
+	background-image: url("../images/bg-main.jpg");
+	background-position: center;
+	background-size: cover; 
+	padding-top:42px;
+	padding-bottom:158px;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.menu{
+	float: right;
+	list-style: none;
+	margin:0;
+	margin-top: 6px;
+}
+
+.menu li{
+	float: left;
+	margin-right: 42px;
+}
+
+.menu li:last-child{
+	margin-right:0px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+.test{
+	width: 400px;
+	height: 200px;
+	background: white;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+.titles{
+	margin-top: 201px;
+}
+
+.titles .title_first{
+	font-size: 40px;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	margin:0px;
+	margin-bottom: 29px;
+}
+
+.titles h1{
+	font-size: 75px;
+	font-weight: bold;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	margin:0px;
+}
+
+.button{
+	color:#484543;
+	width: 240px;
+	background: #fed136;
+	margin:0 auto;
+	display: block;
+	padding:24px 0px;
+	border-radius: 3px;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 60px;
+	font-size: 18px;
+}
+
+/*************** Services ****************/
+/*****************************************/
+/*#services{
+	padding-bottom:100px;
+}*/
+
+.title h2{
+	margin:0px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title p{
+	margin:0px;
+	font-size: 16px;
+	color: #777777;
+	text-align: center;
+	margin: 0px;
+	margin-top:15px; 
+}
+
+.title{
+	margin-top: 120px;
+}
+
+.block-service{
+	float:left;
+	width: 265px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.block-service:last-child{
+	float:right;
+}
+
+.block-service:nth-child(3){
+	margin-left: 74px;
+	
+}
+
+.block-service p{
+	font-size: 14px;
+	color: #777777;
+	line-height: 1.4;
+	/*color:#989898;*/
+}
+
+.block-service h3{
+	font-size: 18px;
+}
+/************Our portfolio***********/
+/************************************/
+
+#portfolio {
+	padding-bottom: 135px;
+	background: rgb(247, 247, 247);
+}
+
+.block-portfolio{
+	background: rgb(247, 247, 247);
+	margin-top: 80px;
+}
+
+.block-portfolio--1{
+	margin-left: 0;
+	float: left;
+}
+
+.block-portfolio--2{
+	margin-left: 35px;
+	float: left;
+}
+
+.block-portfolio--3{
+	float: right;
+}
+
+/*******************About US************/
+
+.about-1-main{
+	margin-top: 80px;
+}
+
+.about-1{
+	display: inline-block;
+	width: 335px;
+	margin-top: 0px;
+}
+
+.about-1 h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	text-align: right;
+}
+
+.about-1 h4{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0px; 
+	text-align: right;
+}
+
+.about-1 p{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+	color: #c7c7c7;
+}
+
+.about-1-picture{
+	display: inline-block;
+	width: 200px;
+	margin-left: 33px;
+
+}
+
+.about-2{
+	display: inline-block;
+	width: 335px;
+	margin-top: 0px;
+}
+
+.about-2 h3 {
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	text-align: left;
+}
+
+.about-2 h4{
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0px; 
+	text-align: left;
+}
+
+.about-2 p{
+	margin: 10px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	color: #c7c7c7;
+}
+
+.copyright{
+	margin: 115px 0;
+	text-align: center;
+	color: #c7c7c7;
+	font-size: 14px;
+
+}
